@@ -1,13 +1,13 @@
 public class kirsing_kodu_1 {
     public static void main(String[] args){
         // vastav ülesanne mida käivitatakse ül1, ...2, ...3, ...4 vastavalt
-        ül1(args);
+        ül2(args);
     }
     public static void ül1(String[] args){
         String sisend="paaritu";
         char a, b, c;
         int keskmine=0;
-        if(sisend.length() <= 1){
+        if(sisend.length() <= 1){ //sõne pikkuse kontroll
             System.out.println("Sõne on: " + sisend);
         }
         else {
@@ -25,5 +25,16 @@ public class kirsing_kodu_1 {
                 System.out.println("Kolm keskmist sümbolit on: "+a+" "+b+" "+c);
             }        
         }
+    }
+    public static void ül2(String[] args){
+        String sisend="abaxaaaxc", alamsõna="aaa";
+        boolean leidub=false;
+        for(int i=0; i<sisend.length()-2; i++){
+            int index = sisend.indexOf(alamsõna, i);
+            if(index == 2 || index == 4){
+                leidub = true;
+            }
+        }
+        System.out.println(leidub);
     }
 }
