@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/csharp,unity,c++,objective-c
-# Edit at https://www.toptal.com/developers/gitignore?templates=csharp,unity,c++,objective-c
+# Created by https://www.toptal.com/developers/gitignore/api/csharp,unity,c++,objective-c,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=csharp,unity,c++,objective-c,visualstudiocode
 
 ### C++ ###
 # Prerequisites
@@ -559,4 +559,17 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# End of https://www.toptal.com/developers/gitignore/api/csharp,unity,c++,objective-c
+### VisualStudioCode ###
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/csharp,unity,c++,objective-c,visualstudiocode
