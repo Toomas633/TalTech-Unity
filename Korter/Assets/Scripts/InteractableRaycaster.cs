@@ -26,7 +26,7 @@ public class InteractableRaycaster : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float raycastDistance = 1f;
+        float raycastDistance = 2f;
         Ray ray = new Ray(raycastSource.position, raycastSource.forward);
         bool hitSomething = Physics.Raycast(ray, out RaycastHit hitResult, raycastDistance);
 
