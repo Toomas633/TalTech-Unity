@@ -97,6 +97,28 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.10",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.management": {
+      "version": "4.3.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
+      },
+      "url": "https://packages.unity.com"
+    },
     "io.extendreality.tilia.camerarigs.spatialsimulator.unity": {
       "version": "2.2.6",
       "depth": 0,
@@ -213,6 +235,17 @@
       "source": "registry",
       "dependencies": {
         "io.extendreality.zinnia.unity": "2.12.1"
+      },
+      "url": "https://registry.npmjs.org"
+    },
+    "io.extendreality.tilia.trackers.pseudobody.unity": {
+      "version": "2.1.56",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.12.1",
+        "io.extendreality.tilia.mutators.collisionignorer.unity": "2.0.16",
+        "io.extendreality.tilia.interactions.interactables.unity": "2.16.2"
       },
       "url": "https://registry.npmjs.org"
     },
