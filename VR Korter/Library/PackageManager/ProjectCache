@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638202185146483304
-    m_Hash: 4055001158
+      ticks: 638202737413479354
+    m_Hash: 2699395064
   m_LockFileStatus:
     m_FilePath: D:/GitHub/TalTech-Unity/VR Korter/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638202185146508284
-    m_Hash: 3296789601
+      ticks: 638202737413494481
+    m_Hash: 1499042948
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1172,6 +1172,110 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.2.0
     nextVersion: 
+- packageId: com.unity.xr.openxr@1.7.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.7.0
+  source: 1
+  resolvedPath: D:\GitHub\TalTech-Unity\VR Korter\Library\PackageCache\com.unity.xr.openxr@1.7.0
+  assetPath: Packages/com.unity.xr.openxr
+  name: com.unity.xr.openxr
+  displayName: OpenXR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: OpenXR is an open, royalty-free standard developed by Khronos that
+    aims to simplify AR/VR development by allowing developers to target a wide range
+    of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.1-preview.1
+    - 0.1.2-preview.2
+    - 1.0.0-pre.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.1
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 1.2.8
+    - 1.3.0
+    - 1.3.1
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.5.0-exp.1
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.6.0
+    - 1.7.0
+    compatible:
+    - 1.7.0
+    verified: 1.7.0
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.2
+  - name: com.unity.inputsystem
+    version: 1.4.4
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.3.3
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.inputsystem
+    version: 1.5.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords:
+  - openxr
+  - xr
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638137880400000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.7/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
+    revision: 6a1990de9658294dd93a1f786585fe9878eac1eb
+    path: 
+  unityLifecycle:
+    version: 1.7.0
+    nextVersion: 
 - packageId: io.extendreality.tilia.camerarigs.spatialsimulator.unity@2.2.6
   testable: 0
   isDirectDependency: 1
@@ -1743,6 +1847,228 @@ m_ResolvedPackages:
   repository:
     type: git
     url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.CameraRigs.TrackedAlias.Unity.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: io.extendreality.tilia.camerarigs.unityxr@2.1.8
+  testable: 0
+  isDirectDependency: 1
+  version: 2.1.8
+  source: 1
+  resolvedPath: D:\GitHub\TalTech-Unity\VR Korter\Library\PackageCache\io.extendreality.tilia.camerarigs.unityxr@2.1.8
+  assetPath: Packages/io.extendreality.tilia.camerarigs.unityxr
+  name: io.extendreality.tilia.camerarigs.unityxr
+  displayName: Tilia CameraRigs UnityXR
+  author:
+    name: Extend Reality Ltd
+    email: hello@extendreality.io
+    url: https://github.com/ExtendRealityLtd
+  category: 
+  type: 
+  description: A camera rig prefab utilizing the legacy XR management system for
+    the Unity software.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.0.7
+    - 1.0.8
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 1.0.12
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 1.1.6
+    - 1.1.7
+    - 1.2.0
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.10
+    - 1.4.11
+    - 1.4.12
+    - 1.4.13
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.5.7
+    - 1.5.8
+    - 1.5.9
+    - 1.5.10
+    - 1.5.11
+    - 1.5.12
+    - 1.5.13
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.0
+    - 1.8.1
+    - 1.9.0
+    - 1.9.1
+    - 1.9.2
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.0.7
+    - 1.0.8
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 1.0.12
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 1.1.6
+    - 1.1.7
+    - 1.2.0
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.10
+    - 1.4.11
+    - 1.4.12
+    - 1.4.13
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.5.7
+    - 1.5.8
+    - 1.5.9
+    - 1.5.10
+    - 1.5.11
+    - 1.5.12
+    - 1.5.13
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.0
+    - 1.8.1
+    - 1.9.0
+    - 1.9.1
+    - 1.9.2
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    verified: 
+  dependencies:
+  - name: io.extendreality.zinnia.unity
+    version: 2.12.1
+  resolvedDependencies:
+  - name: io.extendreality.zinnia.unity
+    version: 2.12.1
+  keywords:
+  - pattern
+  - camerarig
+  - vr
+  - ar
+  - xr
+  - spatial
+  registry:
+    id: scoped:project:npmjs
+    name: npmjs
+    url: https://registry.npmjs.org
+    scopes:
+    - io.extendreality
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638189621456800000
+  documentationUrl: https://github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR/tree/master/Documentation
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+ssh://git@github.com/ExtendRealityLtd/Tilia.CameraRigs.UnityXR.git
     revision: 
     path: 
   unityLifecycle:
@@ -6820,6 +7146,113 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 2.1.10
+    nextVersion: 
+- packageId: com.unity.inputsystem@1.5.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.5.0
+  source: 1
+  resolvedPath: D:\GitHub\TalTech-Unity\VR Korter\Library\PackageCache\com.unity.inputsystem@1.5.0
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
+    - 1.5.1
+    compatible:
+    - 1.5.0
+    - 1.5.1
+    verified: 1.5.1
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords:
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638102370830000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/InputSystem.git
+    revision: eb5279b52c65b1ba176b373a6ebf170fbc564273
+    path: 
+  unityLifecycle:
+    version: 1.5.0
     nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
